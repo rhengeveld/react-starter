@@ -40,5 +40,27 @@ npm install --save babel-preset-react
 ```
 // install Webpack
 npm install --save webpack babel-loader
+
+// add compile script to package.json (@ scripts)
+"compile": "webpack"
+
+// add www/bundle.js to .gitignore
+www/bundle.js
+
+// compile using this command
+npm run compile
 ```
 See the [tutorial step] (http://andrewhfarmer.com/build-your-own-starter/#4-webpack) for details.
+
+**5. Express**
+```
+// install Express to run localhost server
+npm install --save express webpack-dev-middleware
+
+// add server.js to config Express
+// add www/index.html
+// add start script to package.json (@ scripts)
+"start": "node server.js"
+```
+See the [tutorial step] (http://andrewhfarmer.com/build-your-own-starter/#6-express) for details.
+
