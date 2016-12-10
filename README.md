@@ -5,16 +5,33 @@ Based on the ["How to start a React project from scratch"] (http://andrewhfarmer
 
 
 ## Commands
-
+**Git**
 ```
 // initialize Git repo
 git init
+```
 
+**NPM**
+```
 // create package.json
 npm init -y
 
-// don't forget to add node_modules to .gitignore
+// create .gitignore and add node_modules to ignore list
+node_modules
 
-// install dependencies via npm
+// install (afterwards) all dependencies via npm
 npm install
+```
+
+**Babel**
+```
+// install Babel
+npm install --save babel-core
+npm install --save babel-preset-es2015
+npm install --save babel-preset-react
+
+// add .babelrc with the following
+{
+  "presets": ["es2015", "react"]
+}
 ```
