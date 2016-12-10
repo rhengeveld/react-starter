@@ -5,13 +5,13 @@ Based on the ["How to start a React project from scratch"] (http://andrewhfarmer
 
 
 ## Commands
-**Git**
+**[1] Git**
 ```
 // initialize Git repo
 git init
 ```
 
-**NPM**
+**[2] NPM**
 ```
 // create package.json
 npm init -y
@@ -23,7 +23,7 @@ node_modules
 npm install
 ```
 
-**Babel**
+**[3] Babel**
 ```
 // install Babel
 npm install --save babel-core
@@ -35,3 +35,10 @@ npm install --save babel-preset-react
   "presets": ["es2015", "react"]
 }
 ```
+
+**[4] Webpack**
+```
+// install Webpack
+npm install --save webpack babel-loader
+```
+See tutorial step for details.
